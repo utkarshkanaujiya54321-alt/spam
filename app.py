@@ -11,7 +11,7 @@ def predict(x):
     return 1 if sig > 0.5 else 0
 
 # App interface design
-st.title(" Utkarsh's Spam Detector ")
+st.title(" Utkarsh's Spam Detector✌️✌️ ")
 st.write("Hiii! Welcome to my awesome spam detection platform")
 st.write("APP IS CURRENTLY TRAINED ON VERY LESS DATA")
 st.write("IT CAN GIVE FALSE OUTPUT")
