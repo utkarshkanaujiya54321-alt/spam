@@ -13,6 +13,8 @@ def predict(x):
 # App interface design
 st.title(" Utkarsh's Spam Detector ")
 st.write("Hiii! Welcome to my awesome spam detection platform")
+st.write("APP IS CURRENTLY TRAINED ON VERY LESS DATA")
+st.write("IT CAN GIVE FALSE OUTPUT")
 
 won_count = st.number_input("How many times does 'won' appear in the email?", min_value=0)
 money_count = st.number_input("How many times does 'money' appear in the email?", min_value=0)
