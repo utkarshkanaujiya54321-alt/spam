@@ -11,8 +11,8 @@ def predict(x):
     return 1 if sig > 0.5 else 0
 
 # App interface design
-st.title("💖 Bittu's Spam Detector 💖")
-st.write("Hiii! Welcome to my awesome spam detection app!")
+st.title(" Utkarsh's Spam Detector ")
+st.write("Hiii! Welcome to my awesome spam detection platform")
 
 won_count = st.number_input("How many times does 'won' appear in the email?", min_value=0)
 money_count = st.number_input("How many times does 'money' appear in the email?", min_value=0)
